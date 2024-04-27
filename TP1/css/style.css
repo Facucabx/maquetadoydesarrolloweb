@@ -22,6 +22,9 @@ header {
 
 main {
     padding: 20px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+
 }
 .titulo-boston{
     color: rgb(23, 137, 230);
@@ -68,4 +71,11 @@ footer {
 
 .imgFacu{
     width: 400px;
+}
+footer ul {
+    list-style: none;
+    padding: 0;
+}
+footer li {
+    margin-bottom: 10px;
 }

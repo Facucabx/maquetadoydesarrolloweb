@@ -1,0 +1,68 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos del header */
+header {
+    background-color: #B20000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Estilos del main */
+main {
+    background-color: #CCCCCC;
+    padding: 20px;
+    text-align: center;
+}
+
+section {
+    margin: 0 auto; /* Establece un margen automático a los lados */
+    max-width: 800px; /* Ajusta el ancho máximo para las secciones */
+    text-align: left; /* Alinea el contenido a la izquierda */
+    display: inline-block; /* Permite que las secciones ocupen solo el espacio que necesitan */
+}
+
+article {
+    background-color: #FFDFBF;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    
+}
+
+h2 {
+    margin-bottom: 10px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #B20000;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+}
