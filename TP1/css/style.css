@@ -13,10 +13,17 @@ header {
   color: #fff;
   padding: 20px;
   text-align: center;
-  background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el área del footer */
-  background-position: center; /* Centra la imagen dentro del footer */
-  background-repeat: no-repeat; /* Evita que la imagen se repita */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.64);
+}
+h1 {
+  color: #ebeaea;
+  font-size: 70px;
+}
+.titulo-boston {
+  color: rgb(23, 137, 230);
 }
 
 main {
@@ -24,14 +31,21 @@ main {
   margin: 1rem 300px 1rem 300px;
   background-color: #ebeaea;
   border-radius: 10px;
-  text-align: center; /* Centra horizontalmente el contenido */
+  text-align: center;
 }
-.titulo-boston {
-  color: rgb(23, 137, 230);
+
+section {
+  margin: auto;
+  margin-bottom: 20px;
+  text-align: left;
 }
-h1 {
-  color: #ebeaea;
-  font-size: 70px;
+article {
+  margin-bottom: 20px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
 }
 
 .imagen-destacada {
@@ -41,7 +55,7 @@ h1 {
 .imagen-robot-caminando,
 .imagen-robot-salto {
   width: 100%;
-  margin: 1rem 0rem 1rem ;
+  margin: 1rem 0rem 1rem;
 }
 
 h2,
@@ -49,20 +63,6 @@ h3 {
   color: #808080;
 }
 
-section {
-
-    margin: auto; 
-    margin-bottom: 20px; 
-    text-align: left; 
-}
-article {
-  margin-bottom: 20px; 
-}
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 10px;
-}
 footer {
   color: #aaa6a6;
   padding: 20px;
